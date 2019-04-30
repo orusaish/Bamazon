@@ -57,8 +57,8 @@ It is an Amazon-like storefront with the MySQL and Node.js .
 
 - BamazonManager.js
 
-<img width="571" alt="BC1" src="https://user-images.githubusercontent.com/46056178/56976616-60a54180-6b41-11e9-881e-b4b399561a68.png">
-<img width="567" alt="BC2" src="https://user-images.githubusercontent.com/46056178/56976658-79155c00-6b41-11e9-80bc-b4b79bd1f6e3.png">
+<img width="629" alt="BM1" src="https://user-images.githubusercontent.com/46056178/56978087-b7604a80-6b44-11e9-8353-c23b6352d2cb.png">
+<img width="590" alt="BM2" src="https://user-images.githubusercontent.com/46056178/56978122-c6df9380-6b44-11e9-9c4d-a2c5c3718279.png">
 <img width="572" alt="BM3" src="https://user-images.githubusercontent.com/46056178/56978129-ce06a180-6b44-11e9-80a0-178895da1fa2.png">
 <img width="586" alt="BM4" src="https://user-images.githubusercontent.com/46056178/56978139-d2cb5580-6b44-11e9-8fd7-aab74d20895b.png">
 

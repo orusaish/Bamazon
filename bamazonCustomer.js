@@ -90,7 +90,7 @@ function purchaseOrder(ID, amtNeeded) {
           res[0].product_name +
           " is " +
           totalCost +
-          " Thank you!"
+          "$ Thank you!"
       );
       connection.query(
         "UPDATE products SET stock_quantity='" +
@@ -103,7 +103,7 @@ function purchaseOrder(ID, amtNeeded) {
       console.log(
         "Insufficient quantity, sorry we do not have enough " +
           res[0].product_name +
-          "to complete your order."
+          " to complete your order."
       );
     }
     console.log(
