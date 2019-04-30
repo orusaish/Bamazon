@@ -13,13 +13,18 @@ var connection = mysql.createConnection({
 connection.connect(function(err) {
   if (err) throw err;
   console.log("connected as id" + connection.threadId);
-  console.log("-----------------Welcome to Bamazon--------------");
+  console.log("\n");
+  console.log(
+    "-----------------------Welcome to Bamazon-------------------------------"
+  );
+  console.log("\n");
 });
 
 var displayProducts = function() {
   var query = "Select * FROM products";
   connection.query(query, function(err, res) {
     if (err) throw err;
+
     var displayTable = new Table({
       head: ["Item ID", "Product Name", "Department", "Price", "Quantity"],
       colWidths: [10, 25, 25, 10, 14]
@@ -73,7 +78,7 @@ function purchaseOrder(ID, amtNeeded) {
     res
   ) {
     if (err) {
-      console.log(err);
+      console.log("err");
     }
     if (amtNeeded <= res[0].stock_quantity) {
       var totalCost = res[0].price * amtNeeded;
